@@ -1,0 +1,19 @@
+Main engine: Godot → light, ARM-friendly, open-source, flexible.
+
+Core language: C++ (engine parts, performance-critical code).
+
+Scripting/gameplay: GDScript (easy) or Lua.
+
+Graphics: GLSL shaders → essential for lighting, atmosphere, post-processing.
+
+Optional: Use Rust for safer modules or tools.
+
+This way you get a workflow like:
+
+Prototype in Godot (GDScript).
+
+Optimize engine/world in C++.
+
+Write shaders in GLSL for visuals.
+
+Test everything directly on J10 at lower settings.
