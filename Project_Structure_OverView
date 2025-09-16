@@ -1,0 +1,14 @@
+ProvidenceGame/
+├── godot_project/         # GDScript gameplay logic
+│   ├── scenes/
+│   ├── scripts/
+│   └── assets/
+├── engine_core/           # C++ modules for performance
+│   ├── world/
+│   └── ai/
+├── shaders/               # GLSL shaders
+│   ├── lighting.glsl
+│   └── postfx.glsl
+├── rust_tools/            # Optional Rust modules
+│   └── telemetry/
+└── build/                 # J10 test builds
